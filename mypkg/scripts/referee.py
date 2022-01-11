@@ -14,14 +14,16 @@ def cb(message):
     #n = message.data*2
     n = message.data
     print(message.data)
+    
+    print('player1：' + hands[message.data])
+    
     computer = random.randint(0,2)
     print('コンピュータ：' + hands[computer])
     
-    n = (n - computer + 3) % 3
-    
+    n = (n - computer + 3) % 3#勝敗0:あいこ,1:player1の負け,2:player1の勝ち
     #結果
     print('======================')
-    print("結果は「" + judge[n] + "」です")
+    print("結果は「"  + judge[n] + "」です")
     print('======================')
 
 if __name__ == '__main__': 
