@@ -69,6 +69,7 @@ $ rosrun mypkg referee.py
  [github](https://github.com/ryuichiueda/robosys2020)<br>
  [YouTude](https://youtu.be/PL85Pw_zQH0)<br>
  [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
+ -[Windows10上に仮想Ubuntu環境を構築（VMware Workstation Player）](https://qiita.com/iwa_gino/items/11aaffa9e49f2fc423d0)
 
 ### ライセンス
 - ROS
