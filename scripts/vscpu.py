@@ -9,13 +9,14 @@ n = 0
 
 def player(pl):
     global n
+    n = pl.data
     computer = random.randint(0,2)#computer_hands
-    print('コンピュータ：' + hands[computer])
     
-    n = (pl - computer + 3) % 3
+    n = (n - computer + 3) % 3
     #結果
     print('======================')
-    print("結果は「" + judge[n] + "」です")
+    print('コンピュータ：' + hands[computer])
+    print("結果はあなたの「" + judge[n] + "」です")
     print('======================')
 
 if __name__ == '__main__':

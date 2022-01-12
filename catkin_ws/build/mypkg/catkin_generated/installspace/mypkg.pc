@@ -1,8 +1,0 @@
-prefix=/home/harukiogawa/Robosys2021_ROS/catkin_ws/install
-
-Name: mypkg
-Description: Description of mypkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
