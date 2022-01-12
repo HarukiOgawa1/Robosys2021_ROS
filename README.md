@@ -40,35 +40,36 @@ $ source ~/.bashrc
 - ①CPUと対戦
 動画のようにplayer1.py(パブリッシャ),vscpu.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
 パブリッシャは入力,サブスクライバは対戦の結果を表示<br>
--- player1.py<br>
-'''
+player1.py<br>
+```
 $ chmod +x player1.py
 $ rosrun mypkg player1.py
-'''
--- vscpu.py<br>
-'''
+```
+
+vscpu.py<br>
+```
 $ chmod +x vscpu.py
 $ rosrun mypkg vscpu.py
-'''
+```
 
 - ②2人で対戦
 動画のようにplayer1.py(パブリッシャ),player2.py(パブリッシャ),referee.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行
--- player1.py
+player1.py<br>
 ①と同様<br>
--- player2.py
-player1.pyの1を2に変更して実行
--- referee.py
+player2.py
+player1.pyの1を2に変更して実行<br>
+referee.py<br>
 ```
-chmod +x referee.py
-rosrun mypkg referee.py
+$ chmod +x referee.py
+$ rosrun mypkg referee.py
 ```
 
 ### 参考文献
 - 上田隆一先生
--- robosys2020
---- [github](https://github.com/ryuichiueda/robosys2020)
---- [YouTude](https://youtu.be/PL85Pw_zQH0)
--- [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)
+ robosys2020<br>
+ [github](https://github.com/ryuichiueda/robosys2020)<br>
+ [YouTude](https://youtu.be/PL85Pw_zQH0)<br>
+-- [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
 
 ### ライセンス
-ROS - [BSD 3-Clause License]
+ROS[BSD 3-Clause License]
