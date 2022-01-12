@@ -55,9 +55,10 @@ $ rosrun mypkg vscpu.py
 
 - ②2人で対戦
 動画のようにplayer1.py(パブリッシャ),player2.py(パブリッシャ),referee.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
-player1.py<br>
-①と同様<br>
+player1.py:①と同様<br>
+<br>
 player2.py:player1.pyの1を2に変更して実行<br>
+<br>
 referee.py<br>
 ```
 $ chmod +x referee.py
