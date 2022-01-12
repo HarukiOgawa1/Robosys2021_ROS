@@ -11,9 +11,9 @@ YouTubeにアップロードした動画は[こちら]
 
 ### Version
 - VMware Workstation 16 Player
-- ubuntu
+- ubuntu<br>
 -- 20.04 LTS
-- Python
+- Python<br>
 -- 3.8.10
 
 ### ビルド方法
@@ -21,8 +21,8 @@ YouTubeにアップロードした動画は[こちら]
 以下のスクリプトを使用しROS環境を構築<br>
 [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
 - Workspace
-以下の資料を参考にワークスペースを作成
-[robosys2020 ros.md](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)
+以下の資料を参考にワークスペースを作成<br>
+[robosys2020 ros.md](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)<br>
 - Package
 以下のコマンドを実行し,パッケージをクローン
 ```
