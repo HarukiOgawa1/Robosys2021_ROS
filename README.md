@@ -40,6 +40,7 @@ $ source ~/.bashrc
 - ①CPUと対戦
 動画のようにplayer1.py(パブリッシャ),vscpu.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
 パブリッシャは入力,サブスクライバは対戦の結果を表示<br>
+
 player1.py<br>
 ```
 $ chmod +x player1.py
@@ -56,8 +57,7 @@ $ rosrun mypkg vscpu.py
 動画のようにplayer1.py(パブリッシャ),player2.py(パブリッシャ),referee.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
 player1.py<br>
 ①と同様<br>
-player2.py<br>
-player1.pyの1を2に変更して実行<br>
+player2.py:player1.pyの1を2に変更して実行<br>
 referee.py<br>
 ```
 $ chmod +x referee.py
@@ -72,4 +72,5 @@ $ rosrun mypkg referee.py
  [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
 
 ### ライセンス
-ROS[BSD 3-Clause License](https://github.com/HarukiOgawa1/Robosys2021_ROS/blob/main/LICENSE)
+-ROS
+[BSD 3-Clause License](https://github.com/HarukiOgawa1/Robosys2021_ROS/blob/main/LICENSE)
