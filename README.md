@@ -56,9 +56,7 @@ $ rosrun mypkg vscpu.py
 - ②2人で対戦
 動画のようにplayer1.py(パブリッシャ),player2.py(パブリッシャ),referee.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
 player1.py:①と同様<br>
-<br>
 player2.py:player1.pyの1を2に変更して実行<br>
-<br>
 referee.py<br>
 ```
 $ chmod +x referee.py
@@ -73,5 +71,5 @@ $ rosrun mypkg referee.py
  [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
 
 ### ライセンス
--ROS
+- ROS
 [BSD 3-Clause License](https://github.com/HarukiOgawa1/Robosys2021_ROS/blob/main/LICENSE)
