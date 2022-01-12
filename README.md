@@ -40,12 +40,12 @@ $ source ~/.bashrc
 - ①CPUと対戦
 動画のようにplayer1.py(パブリッシャ),vscpu.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
 パブリッシャは入力,サブスクライバは対戦の結果を表示<br>
--- player1.py
+-- player1.py<br>
 '''
 $ chmod +x player1.py
 $ rosrun mypkg player1.py
 '''
--- vscpu.py
+-- vscpu.py<br>
 '''
 $ chmod +x vscpu.py
 $ rosrun mypkg vscpu.py
