@@ -53,10 +53,10 @@ $ rosrun mypkg vscpu.py
 ```
 
 - ②2人で対戦
-動画のようにplayer1.py(パブリッシャ),player2.py(パブリッシャ),referee.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行
+動画のようにplayer1.py(パブリッシャ),player2.py(パブリッシャ),referee.py(サブスクライバ)をそれぞれ別の端末でコマンドを実行<br>
 player1.py<br>
 ①と同様<br>
-player2.py
+player2.py<br>
 player1.pyの1を2に変更して実行<br>
 referee.py<br>
 ```
@@ -69,7 +69,7 @@ $ rosrun mypkg referee.py
  robosys2020<br>
  [github](https://github.com/ryuichiueda/robosys2020)<br>
  [YouTude](https://youtu.be/PL85Pw_zQH0)<br>
--- [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
+ [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
 
 ### ライセンス
-ROS[BSD 3-Clause License]
+ROS[BSD 3-Clause License](https://github.com/HarukiOgawa1/Robosys2021_ROS/blob/main/LICENSE)
