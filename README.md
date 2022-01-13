@@ -18,6 +18,7 @@ YouTubeにアップロードした動画は[こちら](https://youtu.be/uQBu0Dk9
 - ROS
 以下のスクリプトを使用しROS環境を構築<br>
 [ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)<br>
+著作者：上田隆一<br>
 - Workspace
 以下の資料を参考にワークスペースを作成<br>
 [robosys2020 ros.md](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)<br>
@@ -73,3 +74,5 @@ $ rosrun mypkg referee.py
 ### ライセンス
 - ROS
 [BSD 3-Clause License](https://github.com/HarukiOgawa1/Robosys2021_ROS/blob/main/LICENSE)
+- ros_setup_scripts_Ubuntu20.04_desktop
+[MIT License](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop/blob/master/LICENSE)
