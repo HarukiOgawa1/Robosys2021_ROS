@@ -7,7 +7,7 @@
 ②2人で対戦<br>
 
 ### 動画
-YouTubeにアップロードした動画は[こちら]
+YouTubeにアップロードした動画は[こちら](https://youtu.be/uQBu0Dk91YE)
 
 ### Version
 - VMware Workstation 16 Player
