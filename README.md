@@ -11,10 +11,8 @@ YouTubeにアップロードした動画は[こちら](https://youtu.be/uQBu0Dk9
 
 ### Version
 - VMware Workstation 16 Player
-- ubuntu<br>
-　- 20.04 LTS
-- Python<br>
- - 3.8.10
+- ubuntu - 20.04 LTS
+- Python - 3.8.10
 
 ### ビルド方法
 - ROS
