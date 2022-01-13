@@ -27,7 +27,7 @@ YouTubeにアップロードした動画は[こちら]
 以下のコマンドを実行し,パッケージをクローン
 ```
 $ cd ~/catkin_ws/src
-$ git clone 
+$ git clone https://github.com/HarukiOgawa1/Robosys2021_ROS
 ```
 catkin_makeを使用して本パッケージをビルド
 ```
